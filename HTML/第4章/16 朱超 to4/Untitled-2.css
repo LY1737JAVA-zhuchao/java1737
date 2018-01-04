@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+	div,body{ margin:0px}
+	#container{ width:1300px; margin:0px auto;}
+    #head{ height:130px;}
+		#logo{ height:96px; width:280px;float:left;}
+		#daohang{ height:34px; width:1300px;float:left; clear:left;}
+		#caidan{ heght:39px;width:580px; background-color:#30F; float:right; clear:right;}
+		#caidan1{ heght:33px;width:580px; background-color:#0C0; float:right; clear:right;}
+	#main{ height:500px; background-color:red;}
+		#div1{ height:100%; width:50%; background-color:#FF0; float:left;}
+		#div2{ height:100%; width:50%; background-color:#F0C; float:left;}
+	#dibu{ height:100px; background-color:#333;}
