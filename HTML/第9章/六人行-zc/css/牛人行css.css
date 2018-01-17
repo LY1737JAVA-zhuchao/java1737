@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,ul,li,img,a,dl,dt,dd,input{ padding:0px; margin:0px; list-style:none; text-decoration:none;}
+#look{ width:1000px;margin:0px auto;}
+span{ color:#00F;}
+	/*头部*/
+	#t{ border:red 1px solid; width:1000px; height:100px;}
+		#logo{ background:url(../images/logo.gif) no-repeat 150px 10px; width:350px; height:100px; border:yellow 1px solid; float:left;}
+		#daohang{ border:#F03 1px solid; width:640px; height:40%; float:right; text-align:center; font-size:20px; font-weight:bolder; line-height:40px;}
+		#daohang a{ color:#999;}
+		#daohang input{  background:url(images/icon.gif) no-repeat 0px -3px; border:#06F 4px solid; height:20px; margin-top:5px;}
+		#shoushuo{ border:#00F 1px scroll; width:550px; height:60%; float:right;}
+		#shoushuo input{ background:url(images/icon.gif) no-repeat 0px -3px; border:#06F 4px solid; height:20px; margin-top:5px;}
+		#zz{ margin-top:26px; background-color:#06F; height:30px; color:#FFF; font-weight:bold; float:left;}
+		/*主体*/
+	#z{ border:#3F0 1px solid; width:1000px; height:500px;}
+		#z1{ font-size:25px; border:#666 1px solid; background:#CCC; margin:3px; width:320px; height:50px; text-align:center; line-height:50px;}
+			#z1 a{ color:#666;}
+		#tp{ width:578px; height:178px;float:left;}
+			#tp dl{ width:602px; border:#000 1px solid;}
+			#tp dt{ float:left; width:60px; height:100px;}
+			#tp dd{ float:left;width:240px; height:100px;}
+		#z2{ width:380px; height:400px; border:#F00 1px solid; float:right;}
+			#denglu{ width:320px; height:200px; border:#F00 1px solid;}
+			#z3 dl{ width:360px; border:#F00 1px solid;}
+			#z3 dt{ width:60px; height:100px; float:left; border:#F00 1px solid;}
+			#z3 dd{ width:100px; height:100px; float:left; border:#F00 1px solid;}
+		/*尾部*/
+	#d{ border:#000 1px solid; width:1000px; height:100px; margin:0px auto; text-align:center;}
+		#d a{ color:#999; line-height:20px; font-size:20px; margin:10px;}
